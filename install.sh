@@ -17,7 +17,6 @@ dpkg -i pandoc-*.deb
 rm -rf pandoc-*.deb
 
 python3 -m venv venv
-source venv/bin/activate
+source $path/venv/bin/activate
 
-pip install -r requirements.txt
-echo "installed everything...hopefully.\nexecute analyzer.py [file] - have fun"
+#pip install -r requirements.txt
